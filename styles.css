@@ -221,8 +221,13 @@ main {
 .portrait-card {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255,255,255,0.12), rgba(47, 47, 47, 0.04)),
-    url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=80') center/cover no-repeat;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.12),
+      rgba(47, 47, 47, 0.04)
+    ),
+    url('./images/introimage.jpg') center/cover no-repeat;
 }
 
 .section-card,
