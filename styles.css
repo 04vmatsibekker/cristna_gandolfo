@@ -313,10 +313,15 @@ main {
 }
 
 .image-placeholder {
-  min-height: 420px;
+  min-height: 500px;
   border-radius: 32px;
-  background: linear-gradient(135deg, rgba(201, 189, 201, 0.35), rgba(244, 239, 234, 0.55));
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.6);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.12),
+      rgba(47, 47, 47, 0.04)
+    ),
+    url('./images/aboutmeimage.jpg') center/cover no-repeat;
 }
 
 .timeline-grid {
@@ -430,7 +435,18 @@ main {
 .contact-visual {
   min-height: 300px;
   border-radius: 32px;
-  background: radial-gradient(circle at top left, rgba(244, 239, 234, 0.8), transparent 30%), radial-gradient(circle at bottom right, rgba(201, 189, 201, 0.4), transparent 35%);
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(244, 239, 234, 0.8),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(201, 189, 201, 0.4),
+      transparent 35%
+    ),
+    url('./images/excitedcristina.jpg') center/cover no-repeat;
 }
 
 .site-footer {
