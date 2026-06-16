@@ -3,108 +3,199 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cristina Gandolfo | Personal Website</title>
+  <title>Cristina Gandolfo | Materials Engineer & Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-content">
-      <p class="eyebrow">Hi, I’m</p>
-      <h1>Cristina Gandolfo</h1>
-      <p class="subtitle">Creative educator, lifelong learner, and dedicated tutor.</p>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home">Cristina Gandolfo</a>
+      <nav aria-label="Primary navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#research">Research</a>
+        <a class="nav-link" href="#industry">Industry</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <nav class="tabs" aria-label="Main navigation">
-    <button class="tab active" data-target="about">About</button>
-    <button class="tab" data-target="resume">Resume</button>
-    <button class="tab" data-target="tutoring">Tutoring</button>
-    <button class="tab" data-target="contact">Contact</button>
-  </nav>
-
-  <main class="content">
-    <section id="about" class="panel active" aria-labelledby="about-title">
-      <h2 id="about-title">About Cristina</h2>
-      <p>Cristina Gandolfo is a passionate professional with a strong background in education, communication, and academic coaching. She blends creativity and discipline to help students reach their goals, while keeping learning engaging and meaningful.</p>
-      <p>Her approach is warm, personalized, and results-driven. Cristina believes every student can succeed when they have clear direction, motivated study plans, and supportive mentorship.</p>
-    </section>
-
-    <section id="resume" class="panel" aria-labelledby="resume-title">
-      <h2 id="resume-title">Resume</h2>
-      <div class="resume-grid">
-        <div>
-          <h3>Education</h3>
-          <ul>
-            <li>B.A. in Education and Humanities</li>
-            <li>Professional development in tutoring, curriculum design, and learning psychology</li>
-          </ul>
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-copy">
+        <p class="eyebrow">Materials engineer • researcher • entrepreneur • musician</p>
+        <h1>Cristina Gandolfo</h1>
+        <div class="hero-titles">
+          <span>Materials Engineer</span>
+          <span>Researcher</span>
+          <span>Entrepreneur</span>
+          <span>Leader</span>
         </div>
-        <div>
-          <h3>Experience</h3>
-          <ul>
-            <li>Academic tutor for middle school and high school students</li>
-            <li>Workshop facilitator for study skills, writing, and test preparation</li>
-            <li>Volunteer mentor supporting learners in remote and in-person settings</li>
-          </ul>
+        <p class="hero-text">Creating impact at the intersection of materials science, innovation, and business.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore My Work</a>
+          <a class="button secondary" href="#contact">Contact</a>
         </div>
       </div>
-      <div class="resume-grid">
-        <div>
-          <h3>Skills</h3>
-          <ul>
-            <li>Personalized lesson planning</li>
-            <li>Effective communication and feedback</li>
-            <li>Time management and organization</li>
-            <li>English, writing, study strategies, and academic support</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Highlights</h3>
-          <ul>
-            <li>Develops structured learning goals and progress tracking</li>
-            <li>Creates positive, motivating study environments</li>
-            <li>Focuses on confidence-building and academic independence</li>
-          </ul>
+      <div class="hero-visual">
+        <div class="hero-shape"></div>
+        <div class="portrait-frame" aria-hidden="true">
+          <div class="portrait-glow"></div>
+          <div class="portrait-card"></div>
         </div>
       </div>
     </section>
 
-    <section id="tutoring" class="panel" aria-labelledby="tutoring-title">
-      <h2 id="tutoring-title">Tutoring Business</h2>
-      <p>Cristina offers one-on-one tutoring for students in middle school and high school. Her tutoring sessions are tailored to each learner’s needs, whether they need help with homework, writing, study skills, or exam preparation.</p>
-      <div class="cards">
-        <article class="card">
-          <h3>Individual Sessions</h3>
-          <p>Flexible lessons focused on a single subject or academic challenge. These sessions are perfect for targeted support and immediate improvement.</p>
-          <p><strong>Rate:</strong> $45 per hour</p>
+    <section class="highlights section-card" aria-labelledby="highlights-title">
+      <h2 id="highlights-title">Featured Highlights</h2>
+      <div class="highlight-grid">
+        <article class="highlight-card">
+          <h3>Research</h3>
+          <p>Advanced materials characterization, biomaterials, and processing with a focus on sustainable innovation.</p>
         </article>
-        <article class="card">
-          <h3>Weekly Coaching</h3>
-          <p>Consistent weekly sessions build momentum and help students establish strong study habits over time.</p>
-          <p><strong>Rate:</strong> $160 per 4-session package</p>
+        <article class="highlight-card">
+          <h3>Industry</h3>
+          <p>Experience in manufacturing, aerospace, and startup environments that bridge science and product development.</p>
         </article>
-        <article class="card">
-          <h3>Full Exam Prep</h3>
-          <p>Structured preparation for tests, essays, and major assessments with review plans, practice, and strategy.</p>
-          <p><strong>Rate:</strong> $225 for 6 sessions</p>
+        <article class="highlight-card">
+          <h3>Leadership</h3>
+          <p>President of Material Advantage and advocate for engineering communities and next-generation talent.</p>
         </article>
       </div>
-      <p>All tutoring packages can be adapted for online or in-person support. Cristina provides notes, follow-up guidance, and clear action steps after every session.</p>
     </section>
 
-    <section id="contact" class="panel" aria-labelledby="contact-title">
-      <h2 id="contact-title">Contact</h2>
-      <p>Ready to learn more or schedule a tutoring session? Reach out via email and Cristina will respond with availability and next steps.</p>
-      <div class="contact-card">
-        <p><strong>Email:</strong> <a href="mailto:cristina.gandolfo@example.com">cristina.gandolfo@example.com</a></p>
-        <p><strong>Phone:</strong> Available upon request</p>
+    <section class="section-split" aria-labelledby="about-title">
+      <div class="split-image">
+        <div class="image-placeholder" aria-hidden="true"></div>
       </div>
-      <p>If you are a student or parent looking for supportive, engaging tutoring, Cristina is happy to provide a free consultation to discuss goals, strengths, and customized learning plans.</p>
+      <div class="split-copy">
+        <h2 id="about-title">About Me</h2>
+        <p>Born and raised in New York City, I am a materials engineer passionate about solving real-world challenges through innovation, leadership, and entrepreneurship. My work spans advanced materials research, manufacturing, student leadership, and emerging technologies.</p>
+        <p>My focus is on creating elegant solutions that combine scientific rigor with human-centered design, whether in the lab, the classroom, or a startup environment.</p>
+      </div>
+    </section>
+
+    <section id="education" class="section-card" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <div class="timeline-grid">
+        <article class="timeline-card">
+          <h3>Rensselaer Polytechnic Institute</h3>
+          <p><strong>Bachelor of Science</strong> in Materials Science & Engineering</p>
+          <p>President, Material Advantage</p>
+          <p>Relevant coursework: Materials Characterization, Thermodynamics, Failure Analysis, Electronic Materials</p>
+        </article>
+        <article class="timeline-card">
+          <h3>New York University</h3>
+          <p><strong>Master of Science</strong> in Chemical Engineering</p>
+          <p><em>Expected 2028</em></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section-card" aria-labelledby="research-title">
+      <h2 id="research-title">Research</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Bacterial Cellulose Biomaterials</h3>
+          <p>Material selection, sustainability analysis, and biomaterials development using Granta EduPack and advanced characterization.</p>
+        </article>
+        <article class="project-card">
+          <h3>Materials Characterization</h3>
+          <p>SEM, XRD, FTIR, and mechanical testing to explore structure-property relationships in new material systems.</p>
+        </article>
+        <article class="project-card">
+          <h3>Thin Film Analysis</h3>
+          <p>Four-point probe, UV-Vis spectroscopy, and reflectance measurements for next-generation electronic materials.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="industry" class="section-card" aria-labelledby="industry-title">
+      <h2 id="industry-title">Industry Experience</h2>
+      <ol class="timeline-list">
+        <li>
+          <h3>Lockheed Martin</h3>
+          <p>Manufacturing & materials work in aerospace production.</p>
+        </li>
+        <li>
+          <h3>LifeSci NYC</h3>
+          <p>Startup innovation program focused on life science and venture support.</p>
+        </li>
+        <li>
+          <h3>Engineering Internships</h3>
+          <p>Technical project leadership across manufacturing, biotech, and emerging technology teams.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="projects" class="section-card" aria-labelledby="projects-title">
+      <h2 id="projects-title">Featured Projects</h2>
+      <div class="project-grid featured">
+        <article class="featured-project">
+          <div class="project-tag">Large project</div>
+          <h3>Bacterial Cellulose Biomaterials</h3>
+          <p>A deep dive into sustainable biomaterials for medical and environmental applications.</p>
+        </article>
+        <article class="project-card">
+          <h3>Bladesmithing Initiative</h3>
+          <p>Forging technique development and craftsmanship storytelling through hands-on metalwork.</p>
+        </article>
+        <article class="project-card">
+          <h3>Mobility Scooter Lift</h3>
+          <p>Engineering design for improved accessibility and mechanical reliability.</p>
+        </article>
+        <article class="project-card">
+          <h3>Startup & Venture Work</h3>
+          <p>LifeSci NYC and entrepreneurial ventures focused on science-backed product strategies.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="stat-card">
+        <span>10+</span>
+        <p>Research Projects</p>
+      </div>
+      <div class="stat-card">
+        <span>5+</span>
+        <p>Leadership Positions</p>
+      </div>
+      <div class="stat-card">
+        <span>3</span>
+        <p>Engineering Disciplines</p>
+      </div>
+      <div class="stat-card">
+        <span>100+</span>
+        <p>Students Impacted</p>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <p>“Innovation happens when technical expertise meets the courage to lead.”</p>
+    </section>
+
+    <section id="contact" class="section-card" aria-labelledby="contact-title">
+      <div class="contact-surface">
+        <div>
+          <h2 id="contact-title">Let's Connect</h2>
+          <p>Reach out to discuss research collaborations, industry partnerships, or speaking opportunities.</p>
+          <div class="contact-links">
+            <a href="mailto:cristina.gandolfo@example.com">Email</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#" class="resume-link">Resume Download</a>
+          </div>
+        </div>
+        <div class="contact-visual" aria-hidden="true"></div>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Copyright © 2026 Cristina Gandolfo. Designed for a polished personal and tutoring website.</p>
+    <p>© 2026 Cristina Gandolfo. Crafted for a modern materials science portfolio.</p>
   </footer>
 
   <script src="script.js"></script>

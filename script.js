@@ -1,13 +1,29 @@
-const tabs = document.querySelectorAll('.tab');
-const panels = document.querySelectorAll('.panel');
+const navLinks = document.querySelectorAll('.nav-link');
+const sections = document.querySelectorAll('main section[id]');
 
-tabs.forEach(tab => {
-  tab.addEventListener('click', () => {
-    const target = tab.dataset.target;
-    tabs.forEach(item => item.classList.remove('active'));
-    panels.forEach(panel => panel.classList.remove('active'));
-
-    tab.classList.add('active');
-    document.getElementById(target).classList.add('active');
+navLinks.forEach(link => {
+  link.addEventListener('click', event => {
+    navLinks.forEach(item => item.classList.remove('active'));
+    event.currentTarget.classList.add('active');
   });
 });
+
+const setActiveNav = () => {
+  const scrollPosition = window.scrollY + window.innerHeight / 3;
+  sections.forEach(section => {
+    const top = section.offsetTop;
+    const bottom = top + section.offsetHeight;
+    const id = section.getAttribute('id');
+    const navLink = document.querySelector(`.nav-link[href='#${id}']`);
+
+    if (navLink) {
+      if (scrollPosition >= top && scrollPosition < bottom) {
+        navLinks.forEach(item => item.classList.remove('active'));
+        navLink.classList.add('active');
+      }
+    }
+  });
+};
+
+window.addEventListener('scroll', setActiveNav);
+window.addEventListener('load', setActiveNav);
