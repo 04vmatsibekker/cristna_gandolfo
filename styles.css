@@ -265,11 +265,8 @@ main {
 }
 
 
-.highlight-grid {
+.highlights .highlight-grid {
   grid-template-columns: repeat(2, 1fr);
-}
-.highlight-grid {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .highlight-card,
@@ -317,7 +314,7 @@ main {
 }
 
 .image-placeholder {
-  min-height: 500px;
+  min-height: 700px;
   border-radius: 32px;
   background:
     linear-gradient(
