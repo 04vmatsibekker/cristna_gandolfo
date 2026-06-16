@@ -264,6 +264,10 @@ main {
   gap: 24px;
 }
 
+
+.highlight-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
 .highlight-grid {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
