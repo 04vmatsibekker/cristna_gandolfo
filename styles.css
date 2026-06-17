@@ -259,7 +259,8 @@ main {
 
 .highlight-grid,
 .project-grid,
-.timeline-grid {
+.timeline-grid,
+.row-grid {
   display: grid;
   gap: 24px;
 }
@@ -267,6 +268,10 @@ main {
 
 .highlights .highlight-grid {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.row-grid {
+  grid-template-columns: 1fr;
 }
 
 .highlight-card,
