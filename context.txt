@@ -1,0 +1,31 @@
+Services: 
+Under each category, put a bottom like this that says “Book a FREE Consultation:
+Have it look like this 
+Embed a this link to the booking site in each “Book a FREE Consultation” tab
+Then put this sentence at the very bottom of the whole section 
+Let’s start with a conversation about what matters most: your goals, your unique academic journey, and exactly where you want to go. Whether you’re looking for a specific boost or long-term guidance, I adapt my approach to fit your individual learning style. With extensive experience supporting students navigating ADHD, anxiety, depression, and autism, I provide a safe, inclusive space, online or in-person (at local libraries), that meets you exactly where you are. There are no minimums and no pressure; just personalized support designed to fit your life. You deserve a plan that works for you, not the other way around. 
+Ready to get started? 
+Let’s talk! Book your free consultation today. (put the link to the booking site embedded in the highlighted text)
+Link to booking page https://calendar.app.google/dk34FBXDHBTQ2VHs7 
+If there is a way to reformat this section to resemble this
+
+
+
+Section to look at 
+
+    <section id="services" class="highlights section-card" aria-labelledby="highlights-title">
+      <h2 id="highlights-title">Services</h2>
+      <div class="highlight-grid">
+        <article class="highlight-card">
+          <h3>K-12 STEM Tutoring</h3>
+          <p> Build confidence and curiosity through personalized STEM instruction designed for elementary, middle, and high school students. Lessons are tailored to each student's learning style and focus on developing strong foundations in science, mathematics, and engineering concepts. My goal is to make STEM engaging, approachable, and inspiring for the next generation of innovators.</p>
+        </article>
+        <article class="highlight-card">
+          <h3>College Level Tutoring </h3>
+          <p>One-on-one academic support for undergraduate students in materials science, chemistry, engineering, mathematics, and related STEM disciplines. Sessions focus on strengthening conceptual understanding, improving problem-solving skills, and preparing students for exams, projects, and research opportunities. Drawing from my experience as both a researcher and engineer, I help students connect classroom theory to real-world applications.</p>
+        </article>
+        <article class="highlight-card">
+          <h3>1:1 College Application Coaching</h3>
+          <p> Navigate the college application process with personalized guidance tailored to your academic goals and aspirations. From crafting compelling essays and resumes to selecting schools and preparing for interviews, I provide strategic support at every stage of the application journey. Having successfully earned admission to competitive engineering programs and scholarships, I help students present their strongest and most authentic selves.</p>
+      </div>
+    </section>
