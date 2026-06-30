@@ -27,3 +27,4 @@ const setActiveNav = () => {
 
 window.addEventListener('scroll', setActiveNav);
 window.addEventListener('load', setActiveNav);
+
