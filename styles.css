@@ -52,7 +52,7 @@ a.button {
   backdrop-filter: blur(18px);
   background: rgba(246, 234, 227, 0.90);
   border-bottom: 1px solid rgba(47, 47, 47, 0.05);
-  background-color: var(--green);
+  background-color: var(--accent-strong);
 }
 
 .header-inner {
