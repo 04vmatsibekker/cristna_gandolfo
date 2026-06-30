@@ -518,7 +518,7 @@ main {
 
 .contact-surface {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+  grid-template-columns: 1.3fr 0.85fr;
   gap: 32px;
   align-items: center;
 }
@@ -561,7 +561,7 @@ main {
       rgba(201, 189, 201, 0.4),
       transparent 35%
     ),
-    url('./images/excitedcristina.jpg') center/cover no-repeat;
+    url('./images/excitedcristina.jpg') left/cover no-repeat;
 }
 
 .site-footer {
