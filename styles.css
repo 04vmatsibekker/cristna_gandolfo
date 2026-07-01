@@ -302,6 +302,46 @@ main {
   font-size: 1.25rem;
 }
 
+.experience-subsection {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(47, 47, 47, 0.08);
+}
+
+.experience-subsection h4 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  color: var(--green);
+}
+
+.experience-subsection p {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+}
+
+.services-layout {
+  display: grid;
+  grid-template-columns: 1.5fr 0.85fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.services-side-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  padding: 28px;
+  background: white;
+  border: 1px solid rgba(47, 47, 47, 0.08);
+  border-radius: 28px;
+  box-shadow: 0 20px 40px rgba(47, 47, 47, 0.05);
+}
+
+.services-side-card p {
+  margin: 0 0 12px;
+}
+
 .services-grid {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
@@ -331,16 +371,6 @@ main {
   background: none;
   color: var(--green);
   box-shadow: none;
-}
-
-.services-footer {
-  margin-top: 28px;
-  padding-top: 24px;
-  border-top: 1px solid rgba(92, 122, 79, 0.12);
-}
-
-.services-footer p {
-  margin: 0 0 10px;
 }
 
 .gallery-section {
@@ -580,6 +610,14 @@ main {
 
   .featured-project {
     grid-column: span 1;
+  }
+
+  .services-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .services-side-card {
+    aspect-ratio: auto;
   }
 }
 
